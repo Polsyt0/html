@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Encabezado */
+.header {
+    background-color: #404040; /* Naranja */
+    color: rgb(17, 255, 0);
+    text-align: center;
+    padding: 20px;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+/* Menú de navegación */
+.navbar {
+    background-color: #404040; /* Amarillo */
+    text-align: left;
+    padding: 10px;
+    border-bottom: 2px dashed black;
+}
+
+.navbar a {
+    margin-right: 15px;
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Contenedor principal */
+.main-content {
+    display: flex;
+}
+
+/* Área de artículos */
+.articles {
+    flex: 3;
+    background-color: #404040; /* Verde */
+    color: white;
+    padding: 20px;
+}
+
+.article {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #404040; /* Verde oscuro */
+}
+
+/* Barra lateral */
+.sidebar {
+    flex: 1;
+    background-color: #404040; /* Rosa */
+    padding: 20px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sidebar input[type="text"] {
+    width: 80%;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.sidebar input[type="submit"] {
+    padding: 5px 10px;
+    margin-top: 5px;
+    background-color: #404040;
+    border: 1px solid black;
+}
+
+/* Pie de página */
+.footer {
+    background-color: #404040; /* Rojo */
+    color: #404040;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    }
