@@ -1,0 +1,80 @@
+@font-face {
+    font-family: cloisterblack;
+    src: url('/Fuentes/webfontkit-20241122-025557/cloisterblack-webfont.woff2');
+}
+
+.logo {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 200px; 
+    height: auto;
+}
+
+.banner{
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: #A57B56;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.imagenes{
+    width: 300px;
+    box-shadow: 10px 10px 5px #445245;
+    margin: 30px;
+}
+
+ul {
+    font-family: 'CloisterBlack';
+    font-size: x-large;
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+    overflow: hidden;
+    background-color: #A57B56;
+    text-align: center; 
+}
+
+li {
+    display: inline-block; 
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #445245;
+    color: #fff;
+    transition: 0.4s;
+}
+.menu{
+    border-radius: 15%;
+}
+.info {
+        text-align: center;
+        font-size: medium;
+}
+
+h2{
+    text-align: center;
+    text-shadow: #555;
+    font-size:xx-large;
+    font-family: 'cloisterblack', serif;
+}
+
+footer{
+    text-align: center;
+}
+

@@ -1,0 +1,98 @@
+@font-face {
+    font-family: cloisterblack;
+    src: url('/Fuentes/webfontkit-20241122-025557/cloisterblack-webfont.woff2');
+}
+
+.logo {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 200px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+}
+
+body {
+    background-color: #A57B56;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+ul {
+    font-family: 'CloisterBlack';
+    font-size: x-large;
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Asegúrate de eliminar márgenes */
+    overflow: hidden;
+    background-color: #A57B56;
+    text-align: center; /* Centra los elementos dentro del contenedor */
+}
+
+li {
+    display: inline-block; /* Cambia de bloque flotante a inline-block */
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #445245;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.titulo {
+    font-family: 'cloisterblack';
+    text-align: center;
+}
+
+.imagenes {
+    width: 300px;
+    margin: 30px ;
+}
+
+h2{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}   
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    border-color: aliceblue;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd; /* Línea solo en la parte inferior */
+    text-align: left;
+}
+
+th {
+    background-color: #2C3E50;
+    color: white;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+

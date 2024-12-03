@@ -1,0 +1,122 @@
+/* Archivo: styles.css */
+@font-face {
+    font-family: cloisterblack;
+    src: url('/Fuentes/webfontkit-20241122-025557/cloisterblack-webfont.woff2');
+}
+
+.logo {
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    width: 200px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #A57B56;
+    color: #f5f5f5;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+ul {
+    font-family: 'CloisterBlack';
+    font-size: x-large;
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Asegúrate de eliminar márgenes */
+    overflow: hidden;
+    background-color: #A57B56;
+    text-align: center; /* Centra los elementos dentro del contenedor */
+}
+
+li {
+    display: inline-block; /* Cambia de bloque flotante a inline-block */
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #445245;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.container {
+    max-width: 500px;
+    margin: 50px auto;
+    background: #445245;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.order-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #f5f5f5;
+}
+
+.order-form input,
+.order-form select,
+.order-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background: #f5f5f5;
+    color: #333;
+    font-size: 1rem;
+}
+
+.order-form button {
+    width: 100%;
+    padding: 12px;
+    background: #e94560;
+    color: #f5f5f5;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.order-form button:hover {
+    background: #c93050;
+}
+
+.order-form textarea {
+    resize: none;
+}
+
+.order-form input:focus,
+.order-form select:focus,
+.order-form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #e94560;
+    border: 1px solid #e94560;
+}
